@@ -23,7 +23,7 @@ const User = sequelize.define('users', {
 }, {
     sequelize,
     tablename: "customer",
-    timestamp: false,
+    timestamp: "false",
     indexes: [{
         name: "PRIMARY",
         unique: true,
